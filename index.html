@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        
+        
+        h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 7rem;
+            text-align: center;
+            color: (75, 137, 237, 0.818);
+    
+        }
+        .btn-group{
+            display: flex;
+        }
+        .dropdown{
+
+            display: inline-block;
+            
+            
+        }
+        .card{
+            display: inline-block;
+        }
+        .btn btn-lg btn-danger{
+            align-items: center;
+        }
+        h2{
+            color: red;
+            text-align: center;
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pro Shop Padel</h1>
+    
+    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck1">About Us</label>
+      
+        <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck2">raquets</label>
+      
+        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck3">balls</label>
+
+        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck3">Shop </label>
+      </div>
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Contact Us!
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">phone</a></li>
+          <li><a class="dropdown-item" href="#">adress</a></li>
+          <li><a class="dropdown-item" href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <span class="placeholder col-12 bg-primary"></span>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./raqueta.png" class="d-block w-100" alt="padelshop">
+          </div>
+          <div class="carousel-item">
+            <img src="./pelotas" class="d-block w-100" alt="Bata 1">
+          </div>
+          <div class="carousel-item">
+            <img src="./mochilas" class="d-block w-100" alt="Toalla Alberca">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <span class="placeholder col-12 bg-primary"></span>
+      
+
+      <div class="card" style="width: 18rem;">
+        <img src="./raquetas2" class="card-img-top" alt="raquets">
+        <div class="card-body">
+          <h5 class="card-title">raquets</h5>
+          <p class="card-text">Discover your perfect raquet.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">raquetas for women.</li>
+          <li class="list-group-item">raquetas for men.</li>
+          <li class="list-group-item">raquetas for children.</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Shop Now!</a>
+          <a href="#" class="card-link">Contact Us!</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./padel" class="card-img-top" alt="shoes">
+        <div class="card-body">
+          <h5 class="card-title">shoes</h5>
+          <p class="card-text">the most confortable padel shoes</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">shoes for men</li>
+          <li class="list-group-item">shoes for women</li>
+          <li class="list-group-item">shoes for kids</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Shop Now!</a>
+          <a href="#" class="card-link">Contact Us!</a>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <img src="./Alberca.png" class="card-img-top" alt="tshirts">
+        <div class="card-body">
+          <h5 class="card-title">t shirts</h5>
+          <p class="card-text">select your favorite color </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">adidas</li>
+          <li class="list-group-item">bullpadel</li>
+          <li class="list-group-item">Nike</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Shop Now!</a>
+          <a href="#" class="card-link">Contact Us!</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./Bata 1.jpeg" class="card-img-top" alt="balls">
+        <div class="card-body">
+          <h5 class="card-title">balls</h5>
+          <p class="card-text">select your favorite brand</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">wilson</li>
+          <li class="list-group-item">kuikma</li>
+          <li class="list-group-item">head</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Shop Now!</a>
+          <a href="#" class="card-link">Contact Us!</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./Toalla 2.jpeg" class="card-img-top" alt="rqts">
+        <div class="card-body">
+          <h5 class="card-title">raqueta</h5>
+          <p class="card-text">We understand the passion you put into every game. That's why we offer you rackets designed to maximize your performance and comfort. Our selection includes models from the most recognized brands, ideal for players of all levels, from beginners to professionals.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Babolat</li>
+          <li class="list-group-item">bullpadel</li>
+          <li class="list-group-item">head</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Shop Now!</a>
+          <a href="#" class="card-link">Contact Us!</a>
+        </div>
+      </div>
+
+      <span class="placeholder col-12 bg-primary"></span>
+
+      
+
+
+      <h2>Discounts and Promotions <span class="badge text-bg-secondary">Sale Off</span></h2>
+
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">balls</div>
+            All colors and material Available
+          </div>
+          <span class="badge text-bg-primary rounded-pill">20% off</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">raquets for men </div>
+            all colors 
+          </div>
+          <span class="badge text-bg-primary rounded-pill">15% off</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">padel shoes</div>
+            all sizes
+          </div>
+          <span class="badge text-bg-primary rounded-pill">35% off</span>
+        </li>
+      </ol>
+
+
+      <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Discounts & Promotions</button>
+    </body>
+</html>
